@@ -17,6 +17,7 @@ React Native App to enjoy all the current catalog of series and movies in Latin 
 <br/><br/><br/>
 
 
+## 🚧 Project under construction ...
 
 ## Donations
 *SKYSHOW React Native App is an open source project licensed by MIT with continuous development. If you want me to continue maintaining this library and you are interested in continuing to use it, you can help me with a monetary help in the following link*
