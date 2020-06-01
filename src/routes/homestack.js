@@ -10,7 +10,7 @@ import { createMaterialBottomTabNavigator } from '@react-navigation/material-bot
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import SeasonsEpisodesVideo from '../components/SeasonsEpisodesVideo/index.js'
 import Home from '../screen/home.js';
-
+import SeriesList from '../screen/seriesList';
 
 
 //const screens = {
@@ -43,6 +43,16 @@ const Root = () =>{
             tabBarLabel: '',
             tabBarIcon: ({color}) => (
               <MaterialCommunityIcons name="home" color={color} size={28} />
+            )
+          }}
+        />
+        <Tab.Screen 
+          name="Series" 
+          component={SeriesList} 
+          options={{
+            tabBarLabel: '',
+            tabBarIcon: ({color}) => (
+              <MaterialCommunityIcons name="television" color={color} size={28} />
             )
           }}
         />
